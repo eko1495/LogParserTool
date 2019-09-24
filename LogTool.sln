@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogParser", "LogParser\LogParser.csproj", "{A26B8E11-6985-471B-8D5A-C4739988095C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NugetTool", "NugetTool", "{BBF1E281-27BF-484A-9047-F5AE7A2A920B}"
+	ProjectSection(SolutionItems) = preProject
+		NugetTool\nuget.exe = NugetTool\nuget.exe
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogParser.Tests", "LogParser.Tests\LogParser.Tests.csproj", "{A96A09FA-FC3D-41B9-94E7-C8486996BE59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A26B8E11-6985-471B-8D5A-C4739988095C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26B8E11-6985-471B-8D5A-C4739988095C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26B8E11-6985-471B-8D5A-C4739988095C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26B8E11-6985-471B-8D5A-C4739988095C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A96A09FA-FC3D-41B9-94E7-C8486996BE59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96A09FA-FC3D-41B9-94E7-C8486996BE59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96A09FA-FC3D-41B9-94E7-C8486996BE59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96A09FA-FC3D-41B9-94E7-C8486996BE59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09DF0276-F87B-4062-8494-3351EEAA1C9B}
+	EndGlobalSection
+EndGlobal
