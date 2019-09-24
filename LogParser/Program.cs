@@ -32,7 +32,7 @@ namespace LogParser
             }
 
 
-            ProcessLog processLog = new ProcessLog(filePath, new JsonService<LogLine>(), Logger, new ProcessService(Logger));
+            ProcessLog processLog = new ProcessLog(filePath, new JsonService<LogLine>(Logger), Logger, new ProcessService(Logger));
             try
             {
                 Logger.Info($"Start processing: {filePath}");
